@@ -1,3 +1,4 @@
+
 import { Card, CardContent } from "@/components/ui/card";
 const About = () => {
   return <div className="min-h-screen py-20">
@@ -18,9 +19,9 @@ const About = () => {
           <div>
             <h2 className="text-3xl font-bold text-slate-900 mb-6">Nossa História</h2>
             <p className="text-gray-600 mb-4">
-              Fundada em 2010, a Display Informática nasceu da visão de democratizar o acesso à tecnologia 
-              para empresas de todos os portes. Com mais de uma década de 
-              experiência no mercado, nos consolidamos como referência em soluções tecnológicas.
+              Fundada em 19/11/1992, a Display Informática nasceu da visão de democratizar o acesso à tecnologia 
+              para empresas do Maranhão. Com mais de três décadas de 
+              experiência no mercado, nos consolidamos como referência em soluções tecnológicas e assistência técnica.
             </p>
             <p className="text-gray-600">
               Nossa expertise nos permite oferecer produtos de qualidade, 
@@ -80,7 +81,7 @@ const About = () => {
           <h2 className="text-3xl font-bold mb-12">Display Informática em Números</h2>
           <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
             <div>
-              <div className="text-4xl font-bold text-brand-400 mb-2">10+</div>
+              <div className="text-4xl font-bold text-brand-400 mb-2">30+</div>
               <div className="text-gray-300">Anos de Experiência</div>
             </div>
             <div>
