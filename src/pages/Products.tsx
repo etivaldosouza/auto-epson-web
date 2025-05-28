@@ -1,3 +1,4 @@
+
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
@@ -11,7 +12,6 @@ const Products = () => {
           name: "Epson L3250",
           description: "Impressora multifuncional com tanque de tinta, ideal para home office e pequenos escritórios.",
           features: ["Tanque de tinta", "Wi-Fi", "Cópia/Impressão/Scanner", "Baixo custo por página"],
-          price: "A partir de R$ 590,00",
           image: "/lovable-uploads/58cbe63b-f19d-48e2-b61f-656474d9ea14.png",
           popular: true,
         },
@@ -19,7 +19,6 @@ const Products = () => {
           name: "Epson M2170",
           description: "Impressora monocromática com tanque de tinta para alto volume de impressão.",
           features: ["Tanque de tinta", "Monocromática", "Wi-Fi", "Alta capacidade"],
-          price: "A partir de R$ 890,00",
           image: "/lovable-uploads/5dbe099a-d816-4efa-9fc7-439a6f03a628.png",
           popular: false,
         },
@@ -27,7 +26,6 @@ const Products = () => {
           name: "Epson WorkForce WF-2860",
           description: "Impressora multifuncional com cartucho individual, perfeita para escritórios.",
           features: ["Cartucho individual", "Wi-Fi Direct", "Impressão duplex", "Scanner ADF"],
-          price: "A partir de R$ 750,00",
           image: "/lovable-uploads/2b4dd084-b5af-44fa-93f5-e6b3298345f8.png",
           popular: true,
         },
@@ -35,7 +33,6 @@ const Products = () => {
           name: "Epson XP-4101",
           description: "Impressora compacta multifuncional com conectividade wireless e design elegante.",
           features: ["Compacta", "Wi-Fi", "Impressão móvel", "Display LCD"],
-          price: "A partir de R$ 450,00",
           image: "/lovable-uploads/6cbb0fd5-7d03-4c11-938d-8b4622ffc006.png",
           popular: false,
         },
@@ -43,8 +40,14 @@ const Products = () => {
           name: "Epson SureColor T3170",
           description: "Impressora profissional para grandes formatos, ideal para projetos gráficos.",
           features: ["Formato A1", "Qualidade fotográfica", "Rede Ethernet", "Tintas pigmentadas"],
-          price: "A partir de R$ 3.890,00",
-          image: "https://images.unsplash.com/photo-1612198188060-c7c2a3b66eae?auto=format&fit=crop&w=400&h=300",
+          image: "/lovable-uploads/b853422d-c87c-4b08-bfdb-ecb2a1cb85a3.png",
+          popular: false,
+        },
+        {
+          name: "Epson Stylus",
+          description: "Impressora multifuncional com design elegante e alta qualidade de impressão.",
+          features: ["Multifuncional", "Design compacto", "Qualidade fotográfica", "Conectividade wireless"],
+          image: "/lovable-uploads/afa7e3f0-9901-4dab-a59a-fb6883fa3195.png",
           popular: false,
         },
       ],
@@ -56,7 +59,6 @@ const Products = () => {
           name: "Epson LX-350",
           description: "Impressora matricial robusta para documentos em formulário contínuo.",
           features: ["9 agulhas", "347 cps", "USB/Paralela", "Formulário contínuo"],
-          price: "A partir de R$ 1.150,00",
           image: "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=400&h=300",
           popular: true,
         },
@@ -64,7 +66,6 @@ const Products = () => {
           name: "Epson FX-890II",
           description: "Impressora matricial de alta velocidade para grandes volumes.",
           features: ["24 agulhas", "680 cps", "USB/Paralela/Serial", "Multi-cópia"],
-          price: "A partir de R$ 1.890,00",
           image: "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=400&h=300",
           popular: false,
         },
@@ -77,7 +78,6 @@ const Products = () => {
           name: "Epson WorkForce DS-530",
           description: "Scanner de mesa com alimentador automático para documentos.",
           features: ["600x600 dpi", "35 ppm", "ADF 50 folhas", "USB 3.0"],
-          price: "A partir de R$ 2.290,00",
           image: "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=400&h=300",
           popular: false,
         },
@@ -85,7 +85,6 @@ const Products = () => {
           name: "Epson WorkForce ES-400",
           description: "Scanner portátil de alta qualidade para escritório.",
           features: ["600x600 dpi", "25 ppm", "Duplex", "Wi-Fi Direct"],
-          price: "A partir de R$ 1.690,00",
           image: "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=400&h=300",
           popular: true,
         },
@@ -98,19 +97,16 @@ const Products = () => {
       name: "Tinta Original Epson",
       description: "Tintas originais para impressoras multifuncionais Epson",
       specifications: ["Cores vibrantes", "Longa duração", "Compatível com série L"],
-      price: "R$ 25,90",
     },
     {
       name: "Fita para LX-350",
       description: "Fita original para impressora matricial Epson LX-350",
       specifications: ["Preta", "Longa duração", "Excelente qualidade de impressão"],
-      price: "R$ 45,90",
     },
     {
       name: "Cartucho WorkForce",
       description: "Cartucho original para impressoras WorkForce",
       specifications: ["Individual por cor", "Alto rendimento", "Qualidade profissional"],
-      price: "R$ 89,90",
     },
   ];
 
@@ -162,8 +158,7 @@ const Products = () => {
                         ))}
                       </div>
                     </div>
-                    <div className="flex justify-between items-center">
-                      <span className="text-2xl font-bold text-slate-900">{product.price}</span>
+                    <div className="flex justify-center">
                       <Button className="bg-blue-400 text-slate-900 hover:bg-blue-500">
                         Solicitar Orçamento
                       </Button>
@@ -191,7 +186,6 @@ const Products = () => {
                       <li key={specIndex}>• {spec}</li>
                     ))}
                   </ul>
-                  <div className="text-2xl font-bold text-slate-900 mb-4">{supply.price}</div>
                   <Button variant="outline" className="w-full">
                     Adicionar ao Orçamento
                   </Button>
