@@ -30,7 +30,7 @@ const About = () => {
             </p>
           </div>
           <div>
-            <img alt="Equipe Display Informática" className="rounded-lg shadow-lg w-full h-auto" src="/lovable-uploads/c15e97d7-b589-4131-b110-5792c8530850.png" />
+            <img alt="Prêmio Melhor Assistência Técnica Epson Brasil 2022/2023" className="rounded-lg shadow-lg w-full h-auto" src="/lovable-uploads/7584e1ea-f209-46cc-b8e6-e8ca2062420e.png" />
           </div>
         </div>
 
