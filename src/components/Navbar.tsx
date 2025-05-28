@@ -25,8 +25,8 @@ export const Navbar = () => {
         <div className="flex justify-between items-center h-16">
           {/* Logo */}
           <Link to="/" className="flex items-center space-x-2">
-            <div className="w-10 h-10 bg-yellow-400 rounded-lg flex items-center justify-center">
-              <span className="text-slate-900 font-bold text-xl">D</span>
+            <div className="w-10 h-10 bg-brand rounded-lg flex items-center justify-center">
+              <span className="text-white font-bold text-xl">D</span>
             </div>
             <div>
               <span className="text-xl font-bold">Display Informática</span>
@@ -40,8 +40,8 @@ export const Navbar = () => {
               <Link
                 key={item.path}
                 to={item.path}
-                className={`transition-colors duration-200 hover:text-yellow-400 ${
-                  isActive(item.path) ? "text-yellow-400" : ""
+                className={`transition-colors duration-200 hover:text-brand-400 ${
+                  isActive(item.path) ? "text-brand-400" : ""
                 }`}
               >
                 {item.name}
@@ -69,8 +69,8 @@ export const Navbar = () => {
               <Link
                 key={item.path}
                 to={item.path}
-                className={`block py-2 px-4 text-sm transition-colors duration-200 hover:text-yellow-400 hover:bg-slate-800 ${
-                  isActive(item.path) ? "text-yellow-400 bg-slate-800" : ""
+                className={`block py-2 px-4 text-sm transition-colors duration-200 hover:text-brand-400 hover:bg-slate-800 ${
+                  isActive(item.path) ? "text-brand-400 bg-slate-800" : ""
                 }`}
                 onClick={() => setIsMenuOpen(false)}
               >

@@ -13,14 +13,14 @@ const Home = () => {
             <div>
               <h1 className="text-4xl lg:text-6xl font-bold mb-6">
                 Automação Comercial
-                <span className="text-yellow-400 block">Autorizada Epson</span>
+                <span className="text-brand-400 block">Autorizada Epson</span>
               </h1>
               <p className="text-xl text-gray-300 mb-8">
                 Soluções completas em tecnologia para o seu negócio. 
                 Produtos Epson originais com suporte técnico especializado.
               </p>
               <div className="flex flex-col sm:flex-row gap-4">
-                <Button asChild size="lg" className="bg-yellow-400 text-slate-900 hover:bg-yellow-500">
+                <Button asChild size="lg" className="bg-brand text-white hover:bg-brand-700">
                   <Link to="/produtos">Ver Produtos</Link>
                 </Button>
                 <Button asChild variant="outline" size="lg" className="border-white text-white hover:bg-white hover:text-slate-900">
@@ -54,8 +54,8 @@ const Home = () => {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             <Card className="hover:shadow-lg transition-shadow duration-300">
               <CardContent className="p-6 text-center">
-                <div className="w-16 h-16 bg-yellow-400 rounded-full flex items-center justify-center mx-auto mb-4">
-                  <span className="text-2xl">🔧</span>
+                <div className="w-16 h-16 bg-brand rounded-full flex items-center justify-center mx-auto mb-4">
+                  <span className="text-2xl text-white">🔧</span>
                 </div>
                 <h3 className="text-xl font-semibold mb-3">Automação Comercial</h3>
                 <p className="text-gray-600">
@@ -66,8 +66,8 @@ const Home = () => {
 
             <Card className="hover:shadow-lg transition-shadow duration-300">
               <CardContent className="p-6 text-center">
-                <div className="w-16 h-16 bg-yellow-400 rounded-full flex items-center justify-center mx-auto mb-4">
-                  <span className="text-2xl">🖨️</span>
+                <div className="w-16 h-16 bg-brand rounded-full flex items-center justify-center mx-auto mb-4">
+                  <span className="text-2xl text-white">🖨️</span>
                 </div>
                 <h3 className="text-xl font-semibold mb-3">Produtos Epson</h3>
                 <p className="text-gray-600">
@@ -78,8 +78,8 @@ const Home = () => {
 
             <Card className="hover:shadow-lg transition-shadow duration-300">
               <CardContent className="p-6 text-center">
-                <div className="w-16 h-16 bg-yellow-400 rounded-full flex items-center justify-center mx-auto mb-4">
-                  <span className="text-2xl">🛠️</span>
+                <div className="w-16 h-16 bg-brand rounded-full flex items-center justify-center mx-auto mb-4">
+                  <span className="text-2xl text-white">🛠️</span>
                 </div>
                 <h3 className="text-xl font-semibold mb-3">Suporte Técnico</h3>
                 <p className="text-gray-600">
@@ -103,7 +103,7 @@ const Home = () => {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div>
               <h2 className="text-3xl lg:text-4xl font-bold mb-6">
-                Parceria <span className="text-yellow-400">Oficial Epson</span>
+                Parceria <span className="text-brand-400">Oficial Epson</span>
               </h2>
               <p className="text-xl text-gray-300 mb-6">
                 Como revendedor autorizado Epson, garantimos produtos originais, 
@@ -111,15 +111,15 @@ const Home = () => {
               </p>
               <ul className="space-y-3 text-gray-300">
                 <li className="flex items-center">
-                  <span className="text-yellow-400 mr-3">✓</span>
+                  <span className="text-brand-400 mr-3">✓</span>
                   Produtos com garantia oficial
                 </li>
                 <li className="flex items-center">
-                  <span className="text-yellow-400 mr-3">✓</span>
+                  <span className="text-brand-400 mr-3">✓</span>
                   Assistência técnica autorizada
                 </li>
                 <li className="flex items-center">
-                  <span className="text-yellow-400 mr-3">✓</span>
+                  <span className="text-brand-400 mr-3">✓</span>
                   Peças originais disponíveis
                 </li>
               </ul>
@@ -136,16 +136,16 @@ const Home = () => {
       </section>
 
       {/* CTA Section */}
-      <section className="py-20 bg-yellow-400">
+      <section className="py-20 bg-brand">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h2 className="text-3xl lg:text-4xl font-bold text-slate-900 mb-6">
+          <h2 className="text-3xl lg:text-4xl font-bold text-white mb-6">
             Pronto para Modernizar seu Negócio?
           </h2>
-          <p className="text-xl text-slate-700 mb-8 max-w-3xl mx-auto">
+          <p className="text-xl text-brand-100 mb-8 max-w-3xl mx-auto">
             Entre em contato conosco e descubra como podemos ajudar sua empresa 
             a crescer com tecnologia de ponta
           </p>
-          <Button asChild size="lg" className="bg-slate-900 text-white hover:bg-slate-800">
+          <Button asChild size="lg" className="bg-white text-brand hover:bg-gray-100">
             <Link to="/contato">Solicitar Orçamento</Link>
           </Button>
         </div>

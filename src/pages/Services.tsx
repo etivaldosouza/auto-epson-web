@@ -85,10 +85,10 @@ const Services = () => {
         {/* Header */}
         <div className="text-center mb-16">
           <h1 className="text-4xl lg:text-5xl font-bold text-slate-900 mb-6">
-            Nossos <span className="text-yellow-400">Serviços</span>
+            Nossos <span className="text-brand">Serviços</span>
           </h1>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            Oferecemos um portfólio completo de serviços em automação comercial e soluções Epson 
+            Oferecemos um portfólio completo de serviços em automação comercial e soluções tecnológicas 
             para atender todas as necessidades do seu negócio
           </p>
         </div>
@@ -98,8 +98,8 @@ const Services = () => {
           {services.map((service, index) => (
             <Card key={index} className="hover:shadow-lg transition-shadow duration-300 h-full">
               <CardHeader className="text-center">
-                <div className="w-16 h-16 bg-yellow-400 rounded-full flex items-center justify-center mx-auto mb-4">
-                  <span className="text-2xl">{service.icon}</span>
+                <div className="w-16 h-16 bg-brand rounded-full flex items-center justify-center mx-auto mb-4">
+                  <span className="text-2xl text-white">{service.icon}</span>
                 </div>
                 <CardTitle className="text-xl text-slate-900">{service.title}</CardTitle>
               </CardHeader>
@@ -108,7 +108,7 @@ const Services = () => {
                 <ul className="space-y-2">
                   {service.features.map((feature, featureIndex) => (
                     <li key={featureIndex} className="flex items-start">
-                      <span className="text-yellow-400 mr-2 mt-1">•</span>
+                      <span className="text-brand mr-2 mt-1">•</span>
                       <span className="text-sm text-gray-600">{feature}</span>
                     </li>
                   ))}
@@ -125,7 +125,7 @@ const Services = () => {
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
             <div className="text-center">
-              <div className="w-12 h-12 bg-yellow-400 rounded-full flex items-center justify-center mx-auto mb-4 text-slate-900 font-bold text-xl">
+              <div className="w-12 h-12 bg-brand rounded-full flex items-center justify-center mx-auto mb-4 text-white font-bold text-xl">
                 1
               </div>
               <h3 className="font-semibold text-slate-900 mb-2">Análise</h3>
@@ -134,7 +134,7 @@ const Services = () => {
               </p>
             </div>
             <div className="text-center">
-              <div className="w-12 h-12 bg-yellow-400 rounded-full flex items-center justify-center mx-auto mb-4 text-slate-900 font-bold text-xl">
+              <div className="w-12 h-12 bg-brand rounded-full flex items-center justify-center mx-auto mb-4 text-white font-bold text-xl">
                 2
               </div>
               <h3 className="font-semibold text-slate-900 mb-2">Planejamento</h3>
@@ -143,7 +143,7 @@ const Services = () => {
               </p>
             </div>
             <div className="text-center">
-              <div className="w-12 h-12 bg-yellow-400 rounded-full flex items-center justify-center mx-auto mb-4 text-slate-900 font-bold text-xl">
+              <div className="w-12 h-12 bg-brand rounded-full flex items-center justify-center mx-auto mb-4 text-white font-bold text-xl">
                 3
               </div>
               <h3 className="font-semibold text-slate-900 mb-2">Implementação</h3>
@@ -152,7 +152,7 @@ const Services = () => {
               </p>
             </div>
             <div className="text-center">
-              <div className="w-12 h-12 bg-yellow-400 rounded-full flex items-center justify-center mx-auto mb-4 text-slate-900 font-bold text-xl">
+              <div className="w-12 h-12 bg-brand rounded-full flex items-center justify-center mx-auto mb-4 text-white font-bold text-xl">
                 4
               </div>
               <h3 className="font-semibold text-slate-900 mb-2">Suporte</h3>
@@ -173,7 +173,7 @@ const Services = () => {
             e propor a melhor solução para seu negócio
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Button asChild size="lg" className="bg-yellow-400 text-slate-900 hover:bg-yellow-500">
+            <Button asChild size="lg" className="bg-brand text-white hover:bg-brand-700">
               <Link to="/contato">Solicitar Orçamento</Link>
             </Button>
             <Button asChild variant="outline" size="lg">

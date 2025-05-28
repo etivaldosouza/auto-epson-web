@@ -9,8 +9,8 @@ export const Footer = () => {
           {/* Company Info */}
           <div className="col-span-2">
             <div className="flex items-center space-x-2 mb-4">
-              <div className="w-10 h-10 bg-yellow-400 rounded-lg flex items-center justify-center">
-                <span className="text-slate-900 font-bold text-xl">D</span>
+              <div className="w-10 h-10 bg-brand rounded-lg flex items-center justify-center">
+                <span className="text-white font-bold text-xl">D</span>
               </div>
               <div>
                 <span className="text-xl font-bold">Display Informática</span>
@@ -22,13 +22,13 @@ export const Footer = () => {
               Oferecemos produtos e serviços de qualidade com suporte técnico especializado.
             </p>
             <div className="flex space-x-4">
-              <a href="#" className="text-gray-400 hover:text-yellow-400 transition-colors">
+              <a href="#" className="text-gray-400 hover:text-brand-400 transition-colors">
                 Facebook
               </a>
-              <a href="#" className="text-gray-400 hover:text-yellow-400 transition-colors">
+              <a href="#" className="text-gray-400 hover:text-brand-400 transition-colors">
                 Instagram
               </a>
-              <a href="#" className="text-gray-400 hover:text-yellow-400 transition-colors">
+              <a href="#" className="text-gray-400 hover:text-brand-400 transition-colors">
                 LinkedIn
               </a>
             </div>
@@ -38,10 +38,10 @@ export const Footer = () => {
           <div>
             <h3 className="text-lg font-semibold mb-4">Links Rápidos</h3>
             <ul className="space-y-2">
-              <li><Link to="/sobre" className="text-gray-300 hover:text-yellow-400 transition-colors">Sobre</Link></li>
-              <li><Link to="/servicos" className="text-gray-300 hover:text-yellow-400 transition-colors">Serviços</Link></li>
-              <li><Link to="/produtos" className="text-gray-300 hover:text-yellow-400 transition-colors">Produtos</Link></li>
-              <li><Link to="/suporte" className="text-gray-300 hover:text-yellow-400 transition-colors">Suporte</Link></li>
+              <li><Link to="/sobre" className="text-gray-300 hover:text-brand-400 transition-colors">Sobre</Link></li>
+              <li><Link to="/servicos" className="text-gray-300 hover:text-brand-400 transition-colors">Serviços</Link></li>
+              <li><Link to="/produtos" className="text-gray-300 hover:text-brand-400 transition-colors">Produtos</Link></li>
+              <li><Link to="/suporte" className="text-gray-300 hover:text-brand-400 transition-colors">Suporte</Link></li>
             </ul>
           </div>
 
