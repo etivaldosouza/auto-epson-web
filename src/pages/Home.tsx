@@ -1,3 +1,4 @@
+
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import { Link } from "react-router-dom";
@@ -120,7 +121,7 @@ const Home = () => {
               </ul>
             </div>
             <div className="flex justify-center">
-              <img src="https://images.unsplash.com/photo-1605810230434-7631ac76ec81?auto=format&fit=crop&w=800&h=600" alt="Equipamentos Epson" className="rounded-lg shadow-2xl max-w-full h-auto" />
+              <img src="/lovable-uploads/b8b26b3c-fe3f-4967-97ad-17aa44a7d9d4.png" alt="Equipe Display Informática" className="rounded-lg shadow-2xl max-w-full h-auto" />
             </div>
           </div>
         </div>
