@@ -1,3 +1,4 @@
+
 import ProductCategory from "@/components/products/ProductCategory";
 import SuppliesSection from "@/components/products/SuppliesSection";
 import FeaturesSection from "@/components/products/FeaturesSection";
@@ -11,7 +12,7 @@ const Products = () => {
         {/* Header */}
         <div className="text-center mb-16">
           <h1 className="text-4xl lg:text-5xl font-bold text-slate-900 mb-6">
-            Produtos EPSON
+            Produtos <span className="text-brand-400">EPSON</span>
           </h1>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
             Linha completa de impressoras, scanners e suprimentos Epson originais 
