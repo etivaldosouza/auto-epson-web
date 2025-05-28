@@ -20,7 +20,7 @@ const Products = () => {
           description: "Impressora monocromática com tanque de tinta para alto volume de impressão.",
           features: ["Tanque de tinta", "Monocromática", "Wi-Fi", "Alta capacidade"],
           price: "A partir de R$ 890,00",
-          image: "https://images.unsplash.com/photo-1612198188060-c7c2a3b66eae?auto=format&fit=crop&w=400&h=300",
+          image: "/lovable-uploads/5dbe099a-d816-4efa-9fc7-439a6f03a628.png",
           popular: false,
         },
         {
@@ -28,7 +28,7 @@ const Products = () => {
           description: "Impressora multifuncional com cartucho individual, perfeita para escritórios.",
           features: ["Cartucho individual", "Wi-Fi Direct", "Impressão duplex", "Scanner ADF"],
           price: "A partir de R$ 750,00",
-          image: "https://images.unsplash.com/photo-1612198188060-c7c2a3b66eae?auto=format&fit=crop&w=400&h=300",
+          image: "/lovable-uploads/2b4dd084-b5af-44fa-93f5-e6b3298345f8.png",
           popular: true,
         },
         {
@@ -36,7 +36,7 @@ const Products = () => {
           description: "Impressora compacta multifuncional com conectividade wireless e design elegante.",
           features: ["Compacta", "Wi-Fi", "Impressão móvel", "Display LCD"],
           price: "A partir de R$ 450,00",
-          image: "https://images.unsplash.com/photo-1612198188060-c7c2a3b66eae?auto=format&fit=crop&w=400&h=300",
+          image: "/lovable-uploads/6cbb0fd5-7d03-4c11-938d-8b4622ffc006.png",
           popular: false,
         },
         {
