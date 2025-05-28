@@ -1,7 +1,7 @@
 
 export const WhatsappButton = () => {
-  const phoneNumber = "5511999999999"; // Substitua pelo número real
-  const message = "Olá! Gostaria de saber mais sobre os serviços da AutoEpson.";
+  const phoneNumber = "5598988023736"; // Número atualizado
+  const message = "Olá! Gostaria de saber mais sobre os serviços da Display Informática.";
   
   const whatsappUrl = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
 

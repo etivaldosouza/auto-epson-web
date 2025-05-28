@@ -12,7 +12,6 @@ import About from "./pages/About";
 import Services from "./pages/Services";
 import Products from "./pages/Products";
 import Support from "./pages/Support";
-import Blog from "./pages/Blog";
 import Contact from "./pages/Contact";
 import NotFound from "./pages/NotFound";
 
@@ -33,7 +32,6 @@ const App = () => (
               <Route path="/servicos" element={<Services />} />
               <Route path="/produtos" element={<Products />} />
               <Route path="/suporte" element={<Support />} />
-              <Route path="/blog" element={<Blog />} />
               <Route path="/contato" element={<Contact />} />
               <Route path="*" element={<NotFound />} />
             </Routes>

@@ -10,15 +10,15 @@ export const Footer = () => {
           <div className="col-span-2">
             <div className="flex items-center space-x-2 mb-4">
               <div className="w-10 h-10 bg-yellow-400 rounded-lg flex items-center justify-center">
-                <span className="text-slate-900 font-bold text-xl">E</span>
+                <span className="text-slate-900 font-bold text-xl">D</span>
               </div>
               <div>
-                <span className="text-xl font-bold">AutoEpson</span>
-                <span className="text-sm text-gray-300 block">Autorizada Epson</span>
+                <span className="text-xl font-bold">Display Informática</span>
+                <span className="text-sm text-gray-300 block">Soluções em TI</span>
               </div>
             </div>
             <p className="text-gray-300 mb-4">
-              Especialistas em automação comercial e soluções Epson. 
+              Especialistas em soluções de tecnologia da informação. 
               Oferecemos produtos e serviços de qualidade com suporte técnico especializado.
             </p>
             <div className="flex space-x-4">
@@ -49,15 +49,15 @@ export const Footer = () => {
           <div>
             <h3 className="text-lg font-semibold mb-4">Contato</h3>
             <div className="space-y-2 text-gray-300">
-              <p>(11) 99999-9999</p>
-              <p>contato@autoepson.com.br</p>
-              <p>Rua Exemplo, 123<br />São Paulo - SP</p>
+              <p>(98) 98802-3736</p>
+              <p>contato@displayinformatica.com.br</p>
+              <p>Rua R, Quadra 8, Nº 20<br />Planalto Anil 3 - São Luís - MA</p>
             </div>
           </div>
         </div>
 
         <div className="border-t border-slate-700 mt-8 pt-8 text-center text-gray-400">
-          <p>&copy; 2024 AutoEpson. Todos os direitos reservados.</p>
+          <p>&copy; 2024 Display Informática. Todos os direitos reservados.</p>
         </div>
       </div>
     </footer>

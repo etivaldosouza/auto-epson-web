@@ -14,7 +14,6 @@ export const Navbar = () => {
     { name: "Serviços", path: "/servicos" },
     { name: "Produtos", path: "/produtos" },
     { name: "Suporte", path: "/suporte" },
-    { name: "Blog", path: "/blog" },
     { name: "Contato", path: "/contato" },
   ];
 
@@ -27,11 +26,11 @@ export const Navbar = () => {
           {/* Logo */}
           <Link to="/" className="flex items-center space-x-2">
             <div className="w-10 h-10 bg-yellow-400 rounded-lg flex items-center justify-center">
-              <span className="text-slate-900 font-bold text-xl">E</span>
+              <span className="text-slate-900 font-bold text-xl">D</span>
             </div>
             <div>
-              <span className="text-xl font-bold">AutoEpson</span>
-              <span className="text-sm text-gray-300 block">Autorizada Epson</span>
+              <span className="text-xl font-bold">Display Informática</span>
+              <span className="text-sm text-gray-300 block">Soluções em TI</span>
             </div>
           </Link>
 
