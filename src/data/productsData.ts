@@ -53,7 +53,7 @@ export const printerCategories = [
         name: "Tinta Original T504 Preta",
         description: "Garrafa de tinta preta original Epson para impressoras EcoTank série L.",
         features: ["70ml", "Original Epson", "Rendimento de 4.500 páginas", "Secagem rápida"],
-        image: "/lovable-uploads/c48eef89-acf7-4b35-8044-f0a9059cb648.png",
+        image: "/lovable-uploads/3f1fb873-1ec9-4598-8de9-11b0b05426a2.png",
         popular: true,
       },
       {
