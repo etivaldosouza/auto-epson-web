@@ -24,7 +24,7 @@ const Home = () => {
                 <Button asChild size="lg" className="bg-brand text-white hover:bg-brand-700">
                   <Link to="/produtos">Ver Produtos</Link>
                 </Button>
-                <Button asChild variant="outline" size="lg" className="border-white text-white hover:bg-white hover:text-slate-900">
+                <Button asChild size="lg" className="bg-transparent border-2 border-white text-white hover:bg-white hover:text-slate-900 transition-colors">
                   <Link to="/contato">Fale Conosco</Link>
                 </Button>
               </div>
