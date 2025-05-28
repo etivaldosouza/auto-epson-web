@@ -1,4 +1,3 @@
-
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import { Link } from "react-router-dom";
@@ -12,7 +11,7 @@ const Home = () => {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div>
               <h1 className="text-4xl lg:text-6xl font-bold mb-6">
-                Automação Comercial
+                Assistência Técnica
                 <span className="text-brand-400 block">Autorizada Epson</span>
               </h1>
               <p className="text-xl text-gray-300 mb-8">
