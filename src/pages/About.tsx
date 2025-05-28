@@ -1,9 +1,6 @@
-
 import { Card, CardContent } from "@/components/ui/card";
-
 const About = () => {
-  return (
-    <div className="min-h-screen py-20">
+  return <div className="min-h-screen py-20">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Header */}
         <div className="text-center mb-16">
@@ -32,11 +29,7 @@ const About = () => {
             </p>
           </div>
           <div>
-            <img
-              src="https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?auto=format&fit=crop&w=800&h=600"
-              alt="Equipe Display Informática"
-              className="rounded-lg shadow-lg w-full h-auto"
-            />
+            <img alt="Equipe Display Informática" className="rounded-lg shadow-lg w-full h-auto" src="/lovable-uploads/c15e97d7-b589-4131-b110-5792c8530850.png" />
           </div>
         </div>
 
@@ -105,8 +98,6 @@ const About = () => {
           </div>
         </div>
       </div>
-    </div>
-  );
+    </div>;
 };
-
 export default About;
