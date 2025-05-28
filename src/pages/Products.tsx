@@ -1,4 +1,3 @@
-
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
@@ -6,22 +5,46 @@ import { Badge } from "@/components/ui/badge";
 const Products = () => {
   const printerCategories = [
     {
-      category: "Impressoras Fiscais",
+      category: "Impressoras Multifuncionais",
       products: [
         {
-          name: "Epson TM-T20X",
-          description: "Impressora térmica para cupom fiscal, alta velocidade e confiabilidade.",
-          features: ["Térmica", "250mm/s", "USB/Serial", "Guilhotina automática"],
-          price: "A partir de R$ 890,00",
-          image: "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=400&h=300",
+          name: "Epson L3250",
+          description: "Impressora multifuncional com tanque de tinta, ideal para home office e pequenos escritórios.",
+          features: ["Tanque de tinta", "Wi-Fi", "Cópia/Impressão/Scanner", "Baixo custo por página"],
+          price: "A partir de R$ 590,00",
+          image: "https://images.unsplash.com/photo-1612198188060-c7c2a3b66eae?auto=format&fit=crop&w=400&h=300",
           popular: true,
         },
         {
-          name: "Epson TM-T88VI",
-          description: "Impressora fiscal de alta performance com conectividade avançada.",
-          features: ["Térmica", "350mm/s", "USB/Ethernet/Wi-Fi", "NFC"],
-          price: "A partir de R$ 1.290,00",
-          image: "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=400&h=300",
+          name: "Epson M2170",
+          description: "Impressora monocromática com tanque de tinta para alto volume de impressão.",
+          features: ["Tanque de tinta", "Monocromática", "Wi-Fi", "Alta capacidade"],
+          price: "A partir de R$ 890,00",
+          image: "https://images.unsplash.com/photo-1612198188060-c7c2a3b66eae?auto=format&fit=crop&w=400&h=300",
+          popular: false,
+        },
+        {
+          name: "Epson WorkForce WF-2860",
+          description: "Impressora multifuncional com cartucho individual, perfeita para escritórios.",
+          features: ["Cartucho individual", "Wi-Fi Direct", "Impressão duplex", "Scanner ADF"],
+          price: "A partir de R$ 750,00",
+          image: "https://images.unsplash.com/photo-1612198188060-c7c2a3b66eae?auto=format&fit=crop&w=400&h=300",
+          popular: true,
+        },
+        {
+          name: "Epson XP-4101",
+          description: "Impressora compacta multifuncional com conectividade wireless e design elegante.",
+          features: ["Compacta", "Wi-Fi", "Impressão móvel", "Display LCD"],
+          price: "A partir de R$ 450,00",
+          image: "https://images.unsplash.com/photo-1612198188060-c7c2a3b66eae?auto=format&fit=crop&w=400&h=300",
+          popular: false,
+        },
+        {
+          name: "Epson SureColor T3170",
+          description: "Impressora profissional para grandes formatos, ideal para projetos gráficos.",
+          features: ["Formato A1", "Qualidade fotográfica", "Rede Ethernet", "Tintas pigmentadas"],
+          price: "A partir de R$ 3.890,00",
+          image: "https://images.unsplash.com/photo-1612198188060-c7c2a3b66eae?auto=format&fit=crop&w=400&h=300",
           popular: false,
         },
       ],
@@ -72,10 +95,10 @@ const Products = () => {
 
   const supplies = [
     {
-      name: "Bobina Térmica 80mm",
-      description: "Bobina térmica original Epson para impressoras fiscais",
-      specifications: ["80mm x 40m", "Papel de primeira qualidade", "Pacote com 30 unidades"],
-      price: "R$ 89,90",
+      name: "Tinta Original Epson",
+      description: "Tintas originais para impressoras multifuncionais Epson",
+      specifications: ["Cores vibrantes", "Longa duração", "Compatível com série L"],
+      price: "R$ 25,90",
     },
     {
       name: "Fita para LX-350",
@@ -84,10 +107,10 @@ const Products = () => {
       price: "R$ 45,90",
     },
     {
-      name: "Fita para FX-890",
-      description: "Fita original para impressora matricial Epson FX-890",
-      specifications: ["Preta", "Alta capacidade", "Rendimento superior"],
-      price: "R$ 67,90",
+      name: "Cartucho WorkForce",
+      description: "Cartucho original para impressoras WorkForce",
+      specifications: ["Individual por cor", "Alto rendimento", "Qualidade profissional"],
+      price: "R$ 89,90",
     },
   ];
 
@@ -111,7 +134,7 @@ const Products = () => {
             <h2 className="text-3xl font-bold text-slate-900 mb-8 text-center">
               {category.category}
             </h2>
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+            <div className={`grid gap-8 ${category.category === "Impressoras Multifuncionais" ? "grid-cols-1 md:grid-cols-2 lg:grid-cols-3" : "grid-cols-1 md:grid-cols-2"}`}>
               {category.products.map((product, productIndex) => (
                 <Card key={productIndex} className="hover:shadow-lg transition-shadow duration-300 relative">
                   {product.popular && (
