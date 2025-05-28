@@ -12,12 +12,12 @@ const Home = () => {
             <div>
               <h1 className="text-4xl lg:text-6xl font-bold mb-6">
                 Assistência Técnica
-                <span className="text-brand-400 block flex items-center gap-3">
+                <span className="text-brand-400 block flex items-center gap-2 sm:gap-3">
                   Autorizada
                   <img 
                     src="/lovable-uploads/7a41c804-46bb-4526-8185-70afad160802.png" 
                     alt="Epson" 
-                    className="h-12 lg:h-16 object-contain"
+                    className="h-8 sm:h-10 md:h-12 lg:h-16 object-contain"
                   />
                 </span>
               </h1>
@@ -108,12 +108,12 @@ const Home = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div>
-              <h2 className="text-3xl lg:text-4xl font-bold mb-6 flex items-center gap-3">
+              <h2 className="text-3xl lg:text-4xl font-bold mb-6 flex items-center gap-2 sm:gap-3">
                 Parceria <span className="text-brand-400">Oficial</span>
                 <img 
                   src="/lovable-uploads/7a41c804-46bb-4526-8185-70afad160802.png" 
                   alt="Epson" 
-                  className="h-8 lg:h-12 object-contain"
+                  className="h-6 sm:h-8 md:h-10 lg:h-12 object-contain"
                 />
               </h2>
               <p className="text-xl text-gray-300 mb-6">
