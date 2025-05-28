@@ -27,7 +27,7 @@ const ProductCard = ({ product }: ProductCardProps) => {
         <img
           src={product.image}
           alt={product.name}
-          className="w-full h-48 object-cover rounded-lg mb-4"
+          className="w-full h-48 object-contain rounded-lg mb-4 bg-gray-50"
         />
         <CardTitle className="text-xl text-slate-900">{product.name}</CardTitle>
       </CardHeader>
