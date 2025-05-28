@@ -1,4 +1,3 @@
-
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
@@ -13,7 +12,7 @@ const Support = () => {
         {/* Header */}
         <div className="text-center mb-16">
           <h1 className="text-4xl lg:text-5xl font-bold text-slate-900 mb-6">
-            Suporte <span className="text-yellow-400">Técnico</span>
+            Suporte <span className="text-brand-400">Técnico</span>
           </h1>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
             Nossa equipe de suporte está sempre pronta para ajudar. 
@@ -25,8 +24,8 @@ const Support = () => {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-20">
           <Card className="text-center hover:shadow-lg transition-shadow duration-300">
             <CardContent className="p-8">
-              <div className="w-16 h-16 bg-yellow-400 rounded-full flex items-center justify-center mx-auto mb-6">
-                <span className="text-2xl">📞</span>
+              <div className="w-16 h-16 bg-brand rounded-full flex items-center justify-center mx-auto mb-6">
+                <span className="text-2xl text-white">📞</span>
               </div>
               <h3 className="text-xl font-bold text-slate-900 mb-4">Atendimento por Telefone</h3>
               <p className="text-gray-600 mb-6">
@@ -41,8 +40,8 @@ const Support = () => {
 
           <Card className="text-center hover:shadow-lg transition-shadow duration-300">
             <CardContent className="p-8">
-              <div className="w-16 h-16 bg-yellow-400 rounded-full flex items-center justify-center mx-auto mb-6">
-                <span className="text-2xl">💻</span>
+              <div className="w-16 h-16 bg-brand rounded-full flex items-center justify-center mx-auto mb-6">
+                <span className="text-2xl text-white">💻</span>
               </div>
               <h3 className="text-xl font-bold text-slate-900 mb-4">Acesso Remoto</h3>
               <p className="text-gray-600 mb-6">
@@ -56,8 +55,8 @@ const Support = () => {
 
           <Card className="text-center hover:shadow-lg transition-shadow duration-300">
             <CardContent className="p-8">
-              <div className="w-16 h-16 bg-yellow-400 rounded-full flex items-center justify-center mx-auto mb-6">
-                <span className="text-2xl">🚗</span>
+              <div className="w-16 h-16 bg-brand rounded-full flex items-center justify-center mx-auto mb-6">
+                <span className="text-2xl text-white">🚗</span>
               </div>
               <h3 className="text-xl font-bold text-slate-900 mb-4">Visita Técnica</h3>
               <p className="text-gray-600 mb-6">
@@ -141,7 +140,7 @@ const Support = () => {
                 />
               </div>
 
-              <Button className="w-full bg-yellow-400 text-slate-900 hover:bg-yellow-500">
+              <Button className="w-full bg-brand text-white hover:bg-brand-700">
                 Enviar Solicitação
               </Button>
             </form>

@@ -11,7 +11,7 @@ const CTASection = () => {
         Entre em contato conosco para receber um orçamento personalizado 
         com os melhores preços e condições especiais
       </p>
-      <Button size="lg" className="bg-blue-400 text-slate-900 hover:bg-blue-500">
+      <Button size="lg" className="bg-brand text-white hover:bg-brand-700">
         Solicitar Orçamento Completo
       </Button>
     </div>

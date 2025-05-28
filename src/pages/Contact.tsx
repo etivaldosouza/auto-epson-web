@@ -1,4 +1,3 @@
-
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
@@ -13,7 +12,7 @@ const Contact = () => {
         {/* Header */}
         <div className="text-center mb-16">
           <h1 className="text-4xl lg:text-5xl font-bold text-slate-900 mb-6">
-            Entre em <span className="text-yellow-400">Contato</span>
+            Entre em <span className="text-brand-400">Contato</span>
           </h1>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
             Estamos aqui para ajudar! Entre em contato conosco e nossa equipe especializada 
@@ -87,7 +86,7 @@ const Contact = () => {
                 </Label>
               </div>
 
-              <Button className="w-full bg-yellow-400 text-slate-900 hover:bg-yellow-500 text-lg py-3">
+              <Button className="w-full bg-brand text-white hover:bg-brand-700 text-lg py-3">
                 Enviar Mensagem
               </Button>
             </form>
@@ -102,8 +101,8 @@ const Contact = () => {
             <Card>
               <CardContent className="p-6">
                 <div className="flex items-start space-x-4">
-                  <div className="w-12 h-12 bg-yellow-400 rounded-lg flex items-center justify-center">
-                    <span className="text-xl">📍</span>
+                  <div className="w-12 h-12 bg-brand rounded-lg flex items-center justify-center">
+                    <span className="text-xl text-white">📍</span>
                   </div>
                   <div>
                     <h3 className="font-semibold text-slate-900 mb-2">Endereço</h3>
@@ -120,8 +119,8 @@ const Contact = () => {
             <Card>
               <CardContent className="p-6">
                 <div className="flex items-start space-x-4">
-                  <div className="w-12 h-12 bg-yellow-400 rounded-lg flex items-center justify-center">
-                    <span className="text-xl">📞</span>
+                  <div className="w-12 h-12 bg-brand rounded-lg flex items-center justify-center">
+                    <span className="text-xl text-white">📞</span>
                   </div>
                   <div>
                     <h3 className="font-semibold text-slate-900 mb-2">Telefones</h3>
@@ -138,8 +137,8 @@ const Contact = () => {
             <Card>
               <CardContent className="p-6">
                 <div className="flex items-start space-x-4">
-                  <div className="w-12 h-12 bg-yellow-400 rounded-lg flex items-center justify-center">
-                    <span className="text-xl">✉️</span>
+                  <div className="w-12 h-12 bg-brand rounded-lg flex items-center justify-center">
+                    <span className="text-xl text-white">✉️</span>
                   </div>
                   <div>
                     <h3 className="font-semibold text-slate-900 mb-2">E-mail</h3>
@@ -156,8 +155,8 @@ const Contact = () => {
             <Card>
               <CardContent className="p-6">
                 <div className="flex items-start space-x-4">
-                  <div className="w-12 h-12 bg-yellow-400 rounded-lg flex items-center justify-center">
-                    <span className="text-xl">🕒</span>
+                  <div className="w-12 h-12 bg-brand rounded-lg flex items-center justify-center">
+                    <span className="text-xl text-white">🕒</span>
                   </div>
                   <div>
                     <h3 className="font-semibold text-slate-900 mb-2">Horário de Funcionamento</h3>
@@ -176,16 +175,16 @@ const Contact = () => {
               <CardContent className="p-6">
                 <h3 className="font-semibold text-slate-900 mb-4">Redes Sociais</h3>
                 <div className="flex space-x-4">
-                  <a href="#" className="text-gray-600 hover:text-yellow-400 transition-colors">
+                  <a href="#" className="text-gray-600 hover:text-brand transition-colors">
                     Facebook
                   </a>
-                  <a href="#" className="text-gray-600 hover:text-yellow-400 transition-colors">
+                  <a href="#" className="text-gray-600 hover:text-brand transition-colors">
                     Instagram
                   </a>
-                  <a href="#" className="text-gray-600 hover:text-yellow-400 transition-colors">
+                  <a href="#" className="text-gray-600 hover:text-brand transition-colors">
                     LinkedIn
                   </a>
-                  <a href="#" className="text-gray-600 hover:text-yellow-400 transition-colors">
+                  <a href="#" className="text-gray-600 hover:text-brand transition-colors">
                     YouTube
                   </a>
                 </div>
@@ -216,7 +215,7 @@ const Contact = () => {
             entre em contato conosco diretamente
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Button className="bg-yellow-400 text-slate-900 hover:bg-yellow-500">
+            <Button className="bg-brand text-white hover:bg-brand-700">
               Ligar Agora: (11) 99999-9999
             </Button>
             <Button variant="outline" className="border-white text-white hover:bg-white hover:text-slate-900">
