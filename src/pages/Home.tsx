@@ -1,10 +1,8 @@
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import { Link } from "react-router-dom";
-
 const Home = () => {
-  return (
-    <div className="min-h-screen">
+  return <div className="min-h-screen">
       {/* Hero Section */}
       <section className="bg-gradient-to-br from-slate-900 via-slate-800 to-slate-900 text-white py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -30,11 +28,7 @@ const Home = () => {
               </div>
             </div>
             <div className="flex justify-center">
-              <img
-                src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=800&h=600"
-                alt="Tecnologia e Automação"
-                className="rounded-lg shadow-2xl max-w-full h-auto"
-              />
+              <img alt="Tecnologia e Automação" className="rounded-lg shadow-2xl max-w-full h-auto" src="/lovable-uploads/0e142029-33f3-433e-83ad-d41be65a790d.png" />
             </div>
           </div>
         </div>
@@ -126,11 +120,7 @@ const Home = () => {
               </ul>
             </div>
             <div className="flex justify-center">
-              <img
-                src="https://images.unsplash.com/photo-1605810230434-7631ac76ec81?auto=format&fit=crop&w=800&h=600"
-                alt="Equipamentos Epson"
-                className="rounded-lg shadow-2xl max-w-full h-auto"
-              />
+              <img src="https://images.unsplash.com/photo-1605810230434-7631ac76ec81?auto=format&fit=crop&w=800&h=600" alt="Equipamentos Epson" className="rounded-lg shadow-2xl max-w-full h-auto" />
             </div>
           </div>
         </div>
@@ -151,8 +141,6 @@ const Home = () => {
           </Button>
         </div>
       </section>
-    </div>
-  );
+    </div>;
 };
-
 export default Home;
