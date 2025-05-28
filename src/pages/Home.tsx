@@ -1,4 +1,3 @@
-
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import { Link } from "react-router-dom";
@@ -13,11 +12,11 @@ const Home = () => {
             <div>
               <h1 className="text-4xl lg:text-6xl font-bold mb-6">
                 Assistência Técnica
-                <span className="text-brand-400 block flex items-center gap-2 sm:gap-3">
+                <span className="text-brand-400 flex items-baseline gap-2 sm:gap-3">
                   Autorizada
                   <svg 
                     viewBox="0 0 120 40" 
-                    className="h-8 sm:h-10 md:h-12 lg:h-16"
+                    className="h-[0.8em] inline-block"
                     fill="none"
                   >
                     <text 
@@ -120,11 +119,11 @@ const Home = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div>
-              <h2 className="text-3xl lg:text-4xl font-bold mb-6 flex items-center gap-2 sm:gap-3">
+              <h2 className="text-3xl lg:text-4xl font-bold mb-6 flex items-baseline gap-2 sm:gap-3">
                 Parceria <span className="text-brand-400">Oficial</span>
                 <svg 
                   viewBox="0 0 120 40" 
-                  className="h-6 sm:h-8 md:h-10 lg:h-12"
+                  className="h-[0.7em] inline-block"
                   fill="none"
                 >
                   <text 

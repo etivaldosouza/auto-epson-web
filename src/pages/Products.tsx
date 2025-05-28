@@ -1,4 +1,3 @@
-
 import ProductCategory from "@/components/products/ProductCategory";
 import SuppliesSection from "@/components/products/SuppliesSection";
 import FeaturesSection from "@/components/products/FeaturesSection";
@@ -12,26 +11,24 @@ const Products = () => {
         {/* Header */}
         <div className="text-center mb-16">
           <h1 className="text-4xl lg:text-5xl font-bold text-slate-900 mb-6">
-            <div className="flex items-center justify-center gap-3 sm:gap-4">
+            <div className="flex items-baseline justify-center gap-3 sm:gap-4">
               Produtos
-              <div className="flex items-center">
-                <svg 
-                  viewBox="0 0 120 40" 
-                  className="h-8 sm:h-10 md:h-12 lg:h-16"
-                  fill="none"
+              <svg 
+                viewBox="0 0 120 40" 
+                className="h-[0.8em] inline-block"
+                fill="none"
+              >
+                <text 
+                  x="10" 
+                  y="28" 
+                  fontSize="24" 
+                  fontWeight="bold" 
+                  fill="#001969"
+                  fontFamily="Arial, sans-serif"
                 >
-                  <text 
-                    x="10" 
-                    y="28" 
-                    fontSize="24" 
-                    fontWeight="bold" 
-                    fill="#001969"
-                    fontFamily="Arial, sans-serif"
-                  >
-                    EPSON
-                  </text>
-                </svg>
-              </div>
+                  EPSON
+                </text>
+              </svg>
             </div>
           </h1>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
