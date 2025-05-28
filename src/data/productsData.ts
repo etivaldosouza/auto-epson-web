@@ -48,6 +48,39 @@ export const printerCategories = [
     ],
   },
   {
+    category: "Tintas e Garrafas",
+    products: [
+      {
+        name: "Tinta Original T504 Preta",
+        description: "Garrafa de tinta preta original Epson para impressoras EcoTank série L.",
+        features: ["70ml", "Original Epson", "Rendimento de 4.500 páginas", "Secagem rápida"],
+        image: "https://images.unsplash.com/photo-1612198188060-c7c2a3b66eae?auto=format&fit=crop&w=400&h=300",
+        popular: true,
+      },
+      {
+        name: "Kit Tintas Coloridas T504",
+        description: "Kit completo com tintas cyan, magenta e amarela para impressoras EcoTank.",
+        features: ["3 garrafas de 70ml", "Cores vibrantes", "Rendimento alto", "Resistente ao desbotamento"],
+        image: "https://images.unsplash.com/photo-1612198188060-c7c2a3b66eae?auto=format&fit=crop&w=400&h=300",
+        popular: true,
+      },
+      {
+        name: "Tinta Fotográfica T673",
+        description: "Tinta fotográfica premium para impressão de fotos com qualidade profissional.",
+        features: ["Qualidade fotográfica", "Resistente à água", "Cores duradouras", "70ml"],
+        image: "https://images.unsplash.com/photo-1612198188060-c7c2a3b66eae?auto=format&fit=crop&w=400&h=300",
+        popular: false,
+      },
+      {
+        name: "Tinta Pigmentada C13T00R120",
+        description: "Tinta pigmentada preta para impressão de documentos com alta qualidade.",
+        features: ["Pigmentada", "Texto nítido", "Resistente ao borramento", "127ml"],
+        image: "https://images.unsplash.com/photo-1612198188060-c7c2a3b66eae?auto=format&fit=crop&w=400&h=300",
+        popular: false,
+      },
+    ],
+  },
+  {
     category: "Impressoras Matriciais",
     products: [
       {
