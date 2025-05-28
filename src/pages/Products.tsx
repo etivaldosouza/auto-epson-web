@@ -12,7 +12,7 @@ const Products = () => {
           description: "Impressora multifuncional com tanque de tinta, ideal para home office e pequenos escritórios.",
           features: ["Tanque de tinta", "Wi-Fi", "Cópia/Impressão/Scanner", "Baixo custo por página"],
           price: "A partir de R$ 590,00",
-          image: "https://images.unsplash.com/photo-1612198188060-c7c2a3b66eae?auto=format&fit=crop&w=400&h=300",
+          image: "/lovable-uploads/58cbe63b-f19d-48e2-b61f-656474d9ea14.png",
           popular: true,
         },
         {
@@ -120,7 +120,7 @@ const Products = () => {
         {/* Header */}
         <div className="text-center mb-16">
           <h1 className="text-4xl lg:text-5xl font-bold text-slate-900 mb-6">
-            Produtos <span className="text-yellow-400">Epson</span>
+            Produtos <span className="text-blue-400">Epson</span>
           </h1>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
             Linha completa de impressoras, scanners e suprimentos Epson originais 
@@ -138,7 +138,7 @@ const Products = () => {
               {category.products.map((product, productIndex) => (
                 <Card key={productIndex} className="hover:shadow-lg transition-shadow duration-300 relative">
                   {product.popular && (
-                    <Badge className="absolute top-4 right-4 bg-yellow-400 text-slate-900">
+                    <Badge className="absolute top-4 right-4 bg-blue-400 text-slate-900">
                       Mais Vendido
                     </Badge>
                   )}
@@ -164,7 +164,7 @@ const Products = () => {
                     </div>
                     <div className="flex justify-between items-center">
                       <span className="text-2xl font-bold text-slate-900">{product.price}</span>
-                      <Button className="bg-yellow-400 text-slate-900 hover:bg-yellow-500">
+                      <Button className="bg-blue-400 text-slate-900 hover:bg-blue-500">
                         Solicitar Orçamento
                       </Button>
                     </div>
@@ -205,7 +205,7 @@ const Products = () => {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-20">
           <Card className="text-center">
             <CardContent className="p-8">
-              <div className="w-16 h-16 bg-yellow-400 rounded-full flex items-center justify-center mx-auto mb-6">
+              <div className="w-16 h-16 bg-blue-400 rounded-full flex items-center justify-center mx-auto mb-6">
                 <span className="text-2xl">✅</span>
               </div>
               <h3 className="text-xl font-bold text-slate-900 mb-4">Produtos Originais</h3>
@@ -217,7 +217,7 @@ const Products = () => {
 
           <Card className="text-center">
             <CardContent className="p-8">
-              <div className="w-16 h-16 bg-yellow-400 rounded-full flex items-center justify-center mx-auto mb-6">
+              <div className="w-16 h-16 bg-blue-400 rounded-full flex items-center justify-center mx-auto mb-6">
                 <span className="text-2xl">🚚</span>
               </div>
               <h3 className="text-xl font-bold text-slate-900 mb-4">Entrega Rápida</h3>
@@ -229,7 +229,7 @@ const Products = () => {
 
           <Card className="text-center">
             <CardContent className="p-8">
-              <div className="w-16 h-16 bg-yellow-400 rounded-full flex items-center justify-center mx-auto mb-6">
+              <div className="w-16 h-16 bg-blue-400 rounded-full flex items-center justify-center mx-auto mb-6">
                 <span className="text-2xl">🔧</span>
               </div>
               <h3 className="text-xl font-bold text-slate-900 mb-4">Instalação Inclusa</h3>
@@ -249,7 +249,7 @@ const Products = () => {
             Entre em contato conosco para receber um orçamento personalizado 
             com os melhores preços e condições especiais
           </p>
-          <Button size="lg" className="bg-yellow-400 text-slate-900 hover:bg-yellow-500">
+          <Button size="lg" className="bg-blue-400 text-slate-900 hover:bg-blue-500">
             Solicitar Orçamento Completo
           </Button>
         </div>
