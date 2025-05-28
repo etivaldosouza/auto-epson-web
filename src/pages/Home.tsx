@@ -1,3 +1,4 @@
+
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import { Link } from "react-router-dom";
@@ -14,11 +15,22 @@ const Home = () => {
                 Assistência Técnica
                 <span className="text-brand-400 block flex items-center gap-2 sm:gap-3">
                   Autorizada
-                  <img 
-                    src="/lovable-uploads/7a41c804-46bb-4526-8185-70afad160802.png" 
-                    alt="Epson" 
-                    className="h-8 sm:h-10 md:h-12 lg:h-16 object-contain"
-                  />
+                  <svg 
+                    viewBox="0 0 120 40" 
+                    className="h-8 sm:h-10 md:h-12 lg:h-16"
+                    fill="none"
+                  >
+                    <text 
+                      x="10" 
+                      y="28" 
+                      fontSize="24" 
+                      fontWeight="bold" 
+                      fill="#7d93ff"
+                      fontFamily="Arial, sans-serif"
+                    >
+                      EPSON
+                    </text>
+                  </svg>
                 </span>
               </h1>
               <p className="text-xl text-gray-300 mb-8">
@@ -110,11 +122,22 @@ const Home = () => {
             <div>
               <h2 className="text-3xl lg:text-4xl font-bold mb-6 flex items-center gap-2 sm:gap-3">
                 Parceria <span className="text-brand-400">Oficial</span>
-                <img 
-                  src="/lovable-uploads/7a41c804-46bb-4526-8185-70afad160802.png" 
-                  alt="Epson" 
-                  className="h-6 sm:h-8 md:h-10 lg:h-12 object-contain"
-                />
+                <svg 
+                  viewBox="0 0 120 40" 
+                  className="h-6 sm:h-8 md:h-10 lg:h-12"
+                  fill="none"
+                >
+                  <text 
+                    x="10" 
+                    y="28" 
+                    fontSize="24" 
+                    fontWeight="bold" 
+                    fill="#7d93ff"
+                    fontFamily="Arial, sans-serif"
+                  >
+                    EPSON
+                  </text>
+                </svg>
               </h2>
               <p className="text-xl text-gray-300 mb-6">
                 Como revendedor autorizado Epson, garantimos produtos originais, 
