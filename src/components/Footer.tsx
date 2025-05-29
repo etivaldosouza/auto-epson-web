@@ -55,14 +55,14 @@ export const Footer = () => {
             <h3 className="text-lg font-semibold mb-4">Contato</h3>
             <div className="space-y-2 text-gray-300">
               <p>(98) 98802-3736</p>
-              <p>contato@displayinformatica.com.br</p>
+              <p>displayautomacao_adm@outlook.com</p>
               <p>Rua R, Quadra 8, Nº 20<br />Planalto Anil 3 - São Luís - MA</p>
             </div>
           </div>
         </div>
 
         <div className="border-t border-slate-700 mt-8 pt-8 text-center text-gray-400">
-          <p>&copy; 2024 Display Informática. Todos os direitos reservados.</p>
+          <p>&copy; 2025 Display Informática. Todos os direitos reservados.</p>
         </div>
       </div>
     </footer>
