@@ -20,14 +20,13 @@ const CTASection = () => {
         <div className="bg-slate-800 rounded-xl p-8 border border-slate-700">
           <div className="flex items-center mb-4">
             <span className="text-3xl mr-3">🏢</span>
-            <h3 className="text-2xl font-semibold">Filial São Luís</h3>
+            <h3 className="text-2xl font-semibold">Filial Turu</h3>
           </div>
           <div className="space-y-3 text-gray-300">
             <div className="flex items-start">
               <span className="text-brand-400 mr-3 mt-1">📍</span>
               <div>
-                <p className="font-medium">Endereço da Filial</p>
-                <p className="text-sm">São Luís - MA</p>
+                <p className="font-medium">Rua Um - Olho D'agua, São Luís - MA, 65070-000</p>
               </div>
             </div>
             <div className="flex items-center">
@@ -56,12 +55,9 @@ const CTASection = () => {
           </div>
           
           <div className="border-t border-slate-700 pt-6">
-            <h4 className="text-lg font-semibold mb-4 text-center">Precisa de Atendimento Urgente?</h4>
-            <div className="flex flex-col sm:flex-row gap-4 justify-center">
+            <h4 className="text-lg font-semibold mb-4 text-center">Entre em contato conosco</h4>
+            <div className="flex justify-center">
               <Button className="bg-green-600 text-white hover:bg-green-700 shadow-lg">
-                📞 Ligar: (98) 98802-3736
-              </Button>
-              <Button variant="outline" className="border-white text-white hover:bg-white hover:text-slate-900 shadow-lg">
                 💬 WhatsApp: (98) 98802-3736
               </Button>
             </div>
