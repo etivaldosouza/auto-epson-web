@@ -1,9 +1,10 @@
-
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import { Link } from "react-router-dom";
+
 const Home = () => {
-  return <div className="min-h-screen">
+  return (
+    <div className="min-h-screen">
       {/* Hero Section */}
       <section className="bg-gradient-to-br from-slate-900 via-slate-800 to-slate-900 text-white py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -16,8 +17,7 @@ const Home = () => {
                 </span>
               </h1>
               <p className="text-xl text-gray-300 mb-8">
-                Soluções completas em tecnologia para o seu negócio. 
-                Produtos Epson originais com suporte técnico especializado.
+                Somos Assistência Técnica Autorizada Epson em São Luís-MA. Eleita por dois anos consecutivos como a melhor assistência técnica autorizada Epson do Brasil.
               </p>
               <div className="flex flex-col sm:flex-row gap-4">
                 <Button asChild size="lg" className="bg-brand text-white hover:bg-brand-700">
@@ -142,6 +142,8 @@ const Home = () => {
           </Button>
         </div>
       </section>
-    </div>;
+    </div>
+  );
 };
+
 export default Home;
