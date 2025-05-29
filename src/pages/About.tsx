@@ -1,12 +1,16 @@
 
 import { Card, CardContent } from "@/components/ui/card";
+
 const About = () => {
-  return <div className="min-h-screen py-20">
+  return (
+    <div className="min-h-screen py-20">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Header */}
         <div className="text-center mb-16">
           <h1 className="text-4xl lg:text-5xl font-bold text-slate-900 mb-6">
-            Sobre a <span className="text-brand">Display Informática</span>
+            Sobre a{" "}
+            <span className="text-red-500">Display</span>{" "}
+            <span className="text-blue-500">Informática</span>
           </h1>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
             Uma empresa especializada em soluções de tecnologia da informação, 
@@ -78,7 +82,10 @@ const About = () => {
 
         {/* Numbers */}
         <div className="bg-slate-900 text-white rounded-2xl p-12 text-center">
-          <h2 className="text-3xl font-bold mb-12">Display Informática em Números</h2>
+          <h2 className="text-3xl font-bold mb-12">
+            <span className="text-red-500">Display</span>{" "}
+            <span className="text-blue-500">Informática</span> em Números
+          </h2>
           <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
             <div>
               <div className="text-4xl font-bold text-brand-400 mb-2">30+</div>
@@ -99,6 +106,8 @@ const About = () => {
           </div>
         </div>
       </div>
-    </div>;
+    </div>
+  );
 };
+
 export default About;

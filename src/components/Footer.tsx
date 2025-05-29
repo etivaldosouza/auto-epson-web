@@ -8,12 +8,17 @@ export const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           {/* Company Info */}
           <div className="col-span-2">
-            <div className="flex items-center space-x-2 mb-4">
-              <div className="w-10 h-10 bg-brand rounded-lg flex items-center justify-center">
-                <span className="text-white font-bold text-xl">D</span>
-              </div>
+            <div className="flex items-center space-x-3 mb-4">
+              <img 
+                src="/lovable-uploads/097f8e1d-be2b-4d59-aa44-4f4b1da9cb72.png" 
+                alt="Display Informática Logo" 
+                className="h-10 w-auto"
+              />
               <div>
-                <span className="text-xl font-bold">Display Informática</span>
+                <span className="text-xl font-bold">
+                  <span className="text-red-500">Display</span>{" "}
+                  <span className="text-blue-500">Informática</span>
+                </span>
                 <span className="text-sm text-gray-300 block">Soluções em TI</span>
               </div>
             </div>
