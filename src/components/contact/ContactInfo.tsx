@@ -1,4 +1,3 @@
-
 import { Card, CardContent } from "@/components/ui/card";
 
 const ContactInfo = () => {
@@ -17,8 +16,12 @@ const ContactInfo = () => {
             <div>
               <h3 className="font-semibold text-slate-900 mb-2">Endereço</h3>
               <p className="text-gray-600">
+                <strong>Matriz:</strong><br />
                 Rua R, Quadra 8, Nº 20<br />
-                Planalto Anil 3 - São Luís - MA
+                Planalto Anil 3 - São Luís - MA<br /><br />
+                <strong>Filial:</strong><br />
+                Rua Um - Olho D'água<br />
+                São Luís - MA, 65070-000
               </p>
             </div>
           </div>
@@ -53,10 +56,7 @@ const ContactInfo = () => {
             <div>
               <h3 className="font-semibold text-slate-900 mb-2">E-mail</h3>
               <p className="text-gray-600">
-                displayautomacao_adm@outlook.com<br />
-                contato@autoepson.com.br<br />
-                vendas@autoepson.com.br<br />
-                suporte@autoepson.com.br
+                displayautomacao_adm@outlook.com
               </p>
             </div>
           </div>
