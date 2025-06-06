@@ -16,6 +16,14 @@ interface ProductCardProps {
 }
 
 const ProductCard = ({ product }: ProductCardProps) => {
+  const handleQuoteRequest = () => {
+    const phoneNumber = "5598988023736";
+    const message = `Olá! Gostaria de solicitar um orçamento para o produto: ${product.name}. Poderia me enviar mais informações sobre preços e condições?`;
+    const whatsappUrl = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
+    
+    window.open(whatsappUrl, '_blank', 'noopener,noreferrer');
+  };
+
   return (
     <Card className="hover:shadow-lg transition-shadow duration-300 relative">
       {product.popular && (
@@ -44,7 +52,10 @@ const ProductCard = ({ product }: ProductCardProps) => {
           </div>
         </div>
         <div className="flex justify-center">
-          <Button className="bg-blue-400 text-slate-900 hover:bg-blue-500">
+          <Button 
+            onClick={handleQuoteRequest}
+            className="bg-blue-400 text-slate-900 hover:bg-blue-500"
+          >
             Solicitar Orçamento
           </Button>
         </div>
