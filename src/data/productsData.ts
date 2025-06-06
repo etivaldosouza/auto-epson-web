@@ -60,14 +60,14 @@ export const printerCategories = [
         name: "Kit Tintas Coloridas T664",
         description: "Kit completo com tintas cyan, magenta e amarela para impressoras EcoTank.",
         features: ["3 garrafas de 70ml", "Cores vibrantes", "Rendimento alto", "Resistente ao desbotamento"],
-        image: "/lovable-uploads/397ec319-9c12-42ad-a380-01a4c8b3288e.png",
+        image: "/lovable-uploads/397ec319-9c12-42ad-a380-01a4c8b3298e.png",
         popular: true,
       },
       {
         name: "Tinta Fotográfica T673",
         description: "Tinta fotográfica premium para impressão de fotos com qualidade profissional.",
         features: ["Qualidade fotográfica", "Resistente à água", "Cores duradouras", "70ml"],
-        image: "https://images.unsplash.com/photo-1612198188060-c7c2a3b66eae?auto=format&fit=crop&w=400&h=300",
+        image: "/lovable-uploads/2353d548-0404-4d1a-a878-891e0514d9ef.png",
         popular: false,
       },
       {
