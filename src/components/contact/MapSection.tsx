@@ -16,7 +16,6 @@ const MapSection = () => {
           
           {/* Conteúdo existente */}
           <div className="p-8 text-center text-gray-600">
-            <div className="text-5xl mb-6">📍</div>
             <h3 className="text-xl font-semibold text-slate-800 mb-4">Matriz - São Luís</h3>
             <p className="text-lg mb-4 text-slate-600">Clique para abrir no Google Maps</p>
             <div className="bg-slate-50 rounded-lg p-4 mb-6 border border-slate-200">

@@ -15,6 +15,19 @@ const CTASection = () => {
         </p>
       </div>
 
+      {/* Imagem da filial */}
+      <div className="mb-8">
+        <div className="bg-white rounded-xl shadow-md overflow-hidden border border-slate-100">
+          <div className="w-full h-64 overflow-hidden">
+            <img 
+              src="/lovable-uploads/80bffb9e-d389-4eef-a5b2-d643dbe8c231.png" 
+              alt="Fachada da Filial Display Informática - Olho D'água"
+              className="w-full h-full object-cover"
+            />
+          </div>
+        </div>
+      </div>
+
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
         {/* Informações da Filial */}
         <div className="bg-slate-800 rounded-xl p-8 border border-slate-700">
