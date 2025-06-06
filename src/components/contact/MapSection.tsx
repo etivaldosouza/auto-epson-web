@@ -6,11 +6,11 @@ const MapSection = () => {
       <div className="bg-gradient-to-br from-slate-50 to-slate-100 rounded-2xl p-8 shadow-lg border border-slate-200">
         <div className="bg-white rounded-xl shadow-md overflow-hidden border border-slate-100">
           {/* Imagem da loja */}
-          <div className="w-full h-64 overflow-hidden">
+          <div className="w-full max-w-4xl mx-auto h-64 md:h-80 lg:h-96 overflow-hidden">
             <img 
               src="/lovable-uploads/91fc9a72-f690-4a96-841d-d700d4233065.png" 
               alt="Fachada da Display Informática"
-              className="w-full h-full object-cover"
+              className="w-full h-full object-contain bg-slate-50"
             />
           </div>
           
