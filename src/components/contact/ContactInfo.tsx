@@ -17,9 +17,8 @@ const ContactInfo = () => {
             <div>
               <h3 className="font-semibold text-slate-900 mb-2">Endereço</h3>
               <p className="text-gray-600">
-                Rua Exemplo, 123 - Sala 45<br />
-                Centro - São Paulo - SP<br />
-                CEP: 01234-567
+                Rua R, Quadra 8, Nº 20<br />
+                Planalto Anil 3 - São Luís - MA
               </p>
             </div>
           </div>
@@ -35,9 +34,10 @@ const ContactInfo = () => {
             <div>
               <h3 className="font-semibold text-slate-900 mb-2">Telefones</h3>
               <p className="text-gray-600">
-                (11) 99999-9999 (WhatsApp)<br />
-                (11) 3333-4444 (Fixo)<br />
-                (11) 9999-8888 (Emergência)
+                (98) 99116-6486 (WhatsApp)<br />
+                (98) 3238-9292 (Fixo)<br />
+                (98) 3239-1068 (Fixo)<br />
+                (98) 3239-0954 (Fixo)
               </p>
             </div>
           </div>
@@ -53,6 +53,7 @@ const ContactInfo = () => {
             <div>
               <h3 className="font-semibold text-slate-900 mb-2">E-mail</h3>
               <p className="text-gray-600">
+                displayautomacao_adm@outlook.com<br />
                 contato@autoepson.com.br<br />
                 vendas@autoepson.com.br<br />
                 suporte@autoepson.com.br
@@ -90,12 +91,6 @@ const ContactInfo = () => {
             </a>
             <a href="#" className="text-gray-600 hover:text-brand transition-colors">
               Instagram
-            </a>
-            <a href="#" className="text-gray-600 hover:text-brand transition-colors">
-              LinkedIn
-            </a>
-            <a href="#" className="text-gray-600 hover:text-brand transition-colors">
-              YouTube
             </a>
           </div>
         </CardContent>
