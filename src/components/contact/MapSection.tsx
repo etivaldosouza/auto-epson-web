@@ -4,8 +4,18 @@ const MapSection = () => {
     <div className="mb-20">
       <h2 className="text-3xl font-bold text-center text-slate-900 mb-8">Nossa Localização</h2>
       <div className="bg-gradient-to-br from-slate-50 to-slate-100 rounded-2xl p-8 shadow-lg border border-slate-200">
-        <div className="bg-white rounded-xl shadow-md h-96 flex items-center justify-center relative overflow-hidden border border-slate-100">
-          <div className="text-center text-gray-600">
+        <div className="bg-white rounded-xl shadow-md overflow-hidden border border-slate-100">
+          {/* Imagem da loja */}
+          <div className="w-full h-64 overflow-hidden">
+            <img 
+              src="/lovable-uploads/91fc9a72-f690-4a96-841d-d700d4233065.png" 
+              alt="Fachada da Display Informática"
+              className="w-full h-full object-cover"
+            />
+          </div>
+          
+          {/* Conteúdo existente */}
+          <div className="p-8 text-center text-gray-600">
             <div className="text-5xl mb-6">📍</div>
             <h3 className="text-xl font-semibold text-slate-800 mb-4">Matriz - São Luís</h3>
             <p className="text-lg mb-4 text-slate-600">Clique para abrir no Google Maps</p>
