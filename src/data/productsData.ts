@@ -57,7 +57,7 @@ export const printerCategories = [
         popular: true,
       },
       {
-        name: "Kit Tintas Coloridas T504",
+        name: "Kit Tintas Coloridas T664",
         description: "Kit completo com tintas cyan, magenta e amarela para impressoras EcoTank.",
         features: ["3 garrafas de 70ml", "Cores vibrantes", "Rendimento alto", "Resistente ao desbotamento"],
         image: "/lovable-uploads/397ec319-9c12-42ad-a380-01a4c8b3288e.png",
