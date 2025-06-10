@@ -1,5 +1,4 @@
 
-import ContactForm from "@/components/contact/ContactForm";
 import ContactInfo from "@/components/contact/ContactInfo";
 import MapSection from "@/components/contact/MapSection";
 import CTASection from "@/components/contact/CTASection";
@@ -19,12 +18,11 @@ const Contact = () => {
           </p>
         </div>
 
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 mb-20">
-          {/* Contact Form */}
-          <ContactForm />
-
-          {/* Contact Information */}
-          <ContactInfo />
+        <div className="flex justify-center mb-20">
+          {/* Contact Information - Centered */}
+          <div className="max-w-lg w-full">
+            <ContactInfo />
+          </div>
         </div>
 
         {/* Map Section */}
