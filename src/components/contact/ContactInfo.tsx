@@ -1,3 +1,4 @@
+
 import { Card, CardContent } from "@/components/ui/card";
 
 const ContactInfo = () => {
@@ -89,7 +90,7 @@ const ContactInfo = () => {
             <a href="#" className="text-gray-600 hover:text-brand transition-colors">
               Facebook
             </a>
-            <a href="#" className="text-gray-600 hover:text-brand transition-colors">
+            <a href="https://www.instagram.com/epsonmaranhao?igsh=ZDN1cWdnMmR5dXBh" target="_blank" rel="noopener noreferrer" className="text-gray-600 hover:text-brand transition-colors">
               Instagram
             </a>
           </div>
