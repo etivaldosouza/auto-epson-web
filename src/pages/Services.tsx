@@ -42,7 +42,7 @@ const Services = () => {
       icon: "🛠️",
     },
     {
-      title: "Suporte Técnico 24/7",
+      title: "Suporte Técnico",
       description: "Atendimento técnico especializado com acesso remoto e suporte presencial.",
       features: [
         "Atendimento via telefone e WhatsApp",
@@ -59,7 +59,6 @@ const Services = () => {
       features: [
         "Diagnóstico de necessidades",
         "Planejamento de infraestrutura",
-        "Análise de ROI",
         "Projeto de implementação",
         "Acompanhamento pós-implementação",
       ],
@@ -175,9 +174,6 @@ const Services = () => {
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Button asChild size="lg" className="bg-brand text-white hover:bg-brand-700">
               <Link to="/contato">Solicitar Orçamento</Link>
-            </Button>
-            <Button asChild variant="outline" size="lg">
-              <Link to="/suporte">Suporte Técnico</Link>
             </Button>
           </div>
         </div>
