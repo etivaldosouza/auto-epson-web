@@ -74,7 +74,7 @@ export const printerCategories = [
         name: "Tinta T534",
         description: "Tinta original Epson para impressoras de alta qualidade com excelente rendimento.",
         features: ["Original Epson", "Alta qualidade", "Resistente ao desbotamento", "70ml"],
-        image: "/lovable-uploads/91fc9a72-f690-4a96-841d-d700d4233065.png",
+        image: "/lovable-uploads/9977482e-6dd4-4b6d-957f-de2f10d7c5f6.png",
         popular: false,
       },
     ],
