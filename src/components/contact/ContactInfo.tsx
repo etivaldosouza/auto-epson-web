@@ -88,11 +88,11 @@ const ContactInfo = () => {
         <CardContent className="p-6">
           <h3 className="font-semibold text-slate-900 mb-4">Redes Sociais</h3>
           <div className="flex space-x-4">
-            <a href="#" className="text-gray-600 hover:text-brand transition-colors flex items-center justify-center w-10 h-10 rounded-full border border-gray-300 hover:border-brand">
-              <Facebook size={20} />
+            <a href="#" className="flex items-center justify-center w-10 h-10 rounded-full border border-blue-600 hover:border-blue-700 transition-colors bg-blue-600 hover:bg-blue-700">
+              <Facebook size={20} className="text-white" />
             </a>
-            <a href="https://www.instagram.com/epsonmaranhao?igsh=ZDN1cWdnMmR5dXBh" target="_blank" rel="noopener noreferrer" className="text-gray-600 hover:text-brand transition-colors flex items-center justify-center w-10 h-10 rounded-full border border-gray-300 hover:border-brand">
-              <Instagram size={20} />
+            <a href="https://www.instagram.com/epsonmaranhao?igsh=ZDN1cWdnMmR5dXBh" target="_blank" rel="noopener noreferrer" className="flex items-center justify-center w-10 h-10 rounded-full border border-pink-500 hover:border-pink-600 transition-colors bg-gradient-to-br from-purple-600 via-pink-500 to-orange-400 hover:from-purple-700 hover:via-pink-600 hover:to-orange-500">
+              <Instagram size={20} className="text-white" />
             </a>
           </div>
         </CardContent>
