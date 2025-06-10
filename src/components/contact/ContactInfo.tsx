@@ -1,5 +1,6 @@
 
 import { Card, CardContent } from "@/components/ui/card";
+import { Facebook, Instagram } from "lucide-react";
 
 const ContactInfo = () => {
   return (
@@ -87,11 +88,11 @@ const ContactInfo = () => {
         <CardContent className="p-6">
           <h3 className="font-semibold text-slate-900 mb-4">Redes Sociais</h3>
           <div className="flex space-x-4">
-            <a href="#" className="text-gray-600 hover:text-brand transition-colors">
-              Facebook
+            <a href="#" className="text-gray-600 hover:text-brand transition-colors flex items-center justify-center w-10 h-10 rounded-full border border-gray-300 hover:border-brand">
+              <Facebook size={20} />
             </a>
-            <a href="https://www.instagram.com/epsonmaranhao?igsh=ZDN1cWdnMmR5dXBh" target="_blank" rel="noopener noreferrer" className="text-gray-600 hover:text-brand transition-colors">
-              Instagram
+            <a href="https://www.instagram.com/epsonmaranhao?igsh=ZDN1cWdnMmR5dXBh" target="_blank" rel="noopener noreferrer" className="text-gray-600 hover:text-brand transition-colors flex items-center justify-center w-10 h-10 rounded-full border border-gray-300 hover:border-brand">
+              <Instagram size={20} />
             </a>
           </div>
         </CardContent>
