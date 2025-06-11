@@ -1,10 +1,14 @@
+
 import ProductCategory from "@/components/products/ProductCategory";
 import SuppliesSection from "@/components/products/SuppliesSection";
 import FeaturesSection from "@/components/products/FeaturesSection";
 import CTASection from "@/components/products/CTASection";
-import { printerCategories, supplies } from "@/data/productsData";
+import AdditionalProductsSection from "@/components/products/AdditionalProductsSection";
+import { printerCategories, supplies, additionalProducts } from "@/data/productsData";
+
 const Products = () => {
-  return <div className="min-h-screen py-20">
+  return (
+    <div className="min-h-screen py-20">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Header */}
         <div className="text-center mb-16">
@@ -17,8 +21,13 @@ const Products = () => {
           </p>
         </div>
 
-        {/* Product Categories */}
-        {printerCategories.map((category, categoryIndex) => <ProductCategory key={categoryIndex} category={category} />)}
+        {/* Product Categories - apenas Impressoras Multifuncionais e Tintas e Garrafas */}
+        {printerCategories.map((category, categoryIndex) => (
+          <ProductCategory key={categoryIndex} category={category} />
+        ))}
+
+        {/* Additional Products Section */}
+        <AdditionalProductsSection products={additionalProducts} />
 
         {/* Supplies Section */}
         <SuppliesSection supplies={supplies} />
@@ -29,6 +38,8 @@ const Products = () => {
         {/* CTA Section */}
         <CTASection />
       </div>
-    </div>;
+    </div>
+  );
 };
+
 export default Products;

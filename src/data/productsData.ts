@@ -1,3 +1,4 @@
+
 export const printerCategories = [
   {
     category: "Impressoras Multifuncionais",
@@ -79,44 +80,39 @@ export const printerCategories = [
       },
     ],
   },
-  {
-    category: "Impressoras Matriciais",
-    products: [
-      {
-        name: "Epson LX-350",
-        description: "Impressora matricial robusta para documentos em formulário contínuo.",
-        features: ["9 agulhas", "347 cps", "USB/Paralela", "Formulário contínuo"],
-        image: "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=400&h=300",
-        popular: true,
-      },
-      {
-        name: "Epson FX-890II",
-        description: "Impressora matricial de alta velocidade para grandes volumes.",
-        features: ["24 agulhas", "680 cps", "USB/Paralela/Serial", "Multi-cópia"],
-        image: "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=400&h=300",
-        popular: false,
-      },
-    ],
-  },
-  {
-    category: "Scanners",
-    products: [
-      {
-        name: "Epson WorkForce DS-530",
-        description: "Scanner de mesa com alimentador automático para documentos.",
-        features: ["600x600 dpi", "35 ppm", "ADF 50 folhas", "USB 3.0"],
-        image: "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=400&h=300",
-        popular: false,
-      },
-      {
-        name: "Epson WorkForce ES-400",
-        description: "Scanner portátil de alta qualidade para escritório.",
-        features: ["600x600 dpi", "25 ppm", "Duplex", "Wi-Fi Direct"],
-        image: "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=400&h=300",
-        popular: true,
-      },
-    ],
-  },
+];
+
+export const additionalProducts = [
+  // Tintas EcoTank Epson
+  { name: "Tinta T504 Preta 70ml", description: "Tinta preta original para EcoTank L4150, L4160, L6161, L6171, L6191" },
+  { name: "Tinta T504 Cyan 70ml", description: "Tinta cyan original para EcoTank L4150, L4160, L6161, L6171, L6191" },
+  { name: "Tinta T504 Magenta 70ml", description: "Tinta magenta original para EcoTank L4150, L4160, L6161, L6171, L6191" },
+  { name: "Tinta T504 Amarela 70ml", description: "Tinta amarela original para EcoTank L4150, L4160, L6161, L6171, L6191" },
+  { name: "Tinta T664 Preta 70ml", description: "Tinta preta original para EcoTank L200, L210, L355, L365, L375, L395" },
+  { name: "Tinta T664 Cyan 70ml", description: "Tinta cyan original para EcoTank L200, L210, L355, L365, L375, L395" },
+  { name: "Tinta T664 Magenta 70ml", description: "Tinta magenta original para EcoTank L200, L210, L355, L365, L375, L395" },
+  { name: "Tinta T664 Amarela 70ml", description: "Tinta amarela original para EcoTank L200, L210, L355, L365, L375, L395" },
+  { name: "Tinta T544 Preta 65ml", description: "Tinta preta original para EcoTank L3110, L3150, L5190" },
+  { name: "Tinta T544 Cyan 65ml", description: "Tinta cyan original para EcoTank L3110, L3150, L5190" },
+  { name: "Tinta T544 Magenta 65ml", description: "Tinta magenta original para EcoTank L3110, L3150, L5190" },
+  { name: "Tinta T544 Amarela 65ml", description: "Tinta amarela original para EcoTank L3110, L3150, L5190" },
+  { name: "Tinta T774 Preta 140ml", description: "Tinta preta original para EcoTank M1120, M2120, M3170" },
+  { name: "Tinta T673 Preta Fotográfica 70ml", description: "Tinta preta fotográfica para EcoTank L800, L805, L810, L850, L1800" },
+  { name: "Tinta T673 Cyan Fotográfica 70ml", description: "Tinta cyan fotográfica para EcoTank L800, L805, L810, L850, L1800" },
+  { name: "Tinta T673 Magenta Fotográfica 70ml", description: "Tinta magenta fotográfica para EcoTank L800, L805, L810, L850, L1800" },
+  { name: "Tinta T673 Amarela Fotográfica 70ml", description: "Tinta amarela fotográfica para EcoTank L800, L805, L810, L850, L1800" },
+  { name: "Tinta T673 Magenta Claro 70ml", description: "Tinta magenta claro fotográfica para EcoTank L800, L805, L810, L850, L1800" },
+  { name: "Tinta T673 Cyan Claro 70ml", description: "Tinta cyan claro fotográfica para EcoTank L800, L805, L810, L850, L1800" },
+  
+  // Bobinas Térmicas
+  { name: "Bobina Térmica 57x40mm", description: "Bobina térmica 57x40mm para impressoras térmicas e PDV" },
+  { name: "Bobina Térmica 80x40mm", description: "Bobina térmica 80x40mm para impressoras térmicas e PDV" },
+  { name: "Bobina Térmica 80x80mm", description: "Bobina térmica 80x80mm para impressoras térmicas e PDV" },
+  { name: "Bobina Térmica 57x15m", description: "Bobina térmica 57x15m para máquinas de cartão" },
+  { name: "Bobina Térmica 57x30m", description: "Bobina térmica 57x30m para máquinas de cartão" },
+  { name: "Bobina Térmica 80x15m", description: "Bobina térmica 80x15m para impressoras térmicas" },
+  { name: "Bobina Térmica 80x30m", description: "Bobina térmica 80x30m para impressoras térmicas" },
+  { name: "Bobina Térmica 110x40mm", description: "Bobina térmica 110x40mm para impressoras de etiquetas" },
 ];
 
 export const supplies = [
