@@ -1,10 +1,9 @@
 
 import ProductCategory from "@/components/products/ProductCategory";
-import SuppliesSection from "@/components/products/SuppliesSection";
 import FeaturesSection from "@/components/products/FeaturesSection";
 import CTASection from "@/components/products/CTASection";
 import AdditionalProductsSection from "@/components/products/AdditionalProductsSection";
-import { printerCategories, supplies, additionalProducts } from "@/data/productsData";
+import { printerCategories, additionalProducts } from "@/data/productsData";
 
 const Products = () => {
   return (
@@ -28,9 +27,6 @@ const Products = () => {
 
         {/* Additional Products Section */}
         <AdditionalProductsSection products={additionalProducts} />
-
-        {/* Supplies Section */}
-        <SuppliesSection supplies={supplies} />
 
         {/* Features Section */}
         <FeaturesSection />
