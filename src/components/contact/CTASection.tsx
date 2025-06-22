@@ -71,7 +71,7 @@ const CTASection = () => {
             <h4 className="text-lg font-semibold mb-4 text-center">Entre em contato conosco</h4>
             <div className="flex justify-center">
               <Button className="bg-green-600 text-white hover:bg-green-700 shadow-lg">
-                💬 WhatsApp: (98) 98802-3736
+                💬 WhatsApp: (98) 98911-6486
               </Button>
             </div>
           </div>

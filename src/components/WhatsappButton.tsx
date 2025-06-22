@@ -1,6 +1,6 @@
 
 export const WhatsappButton = () => {
-  const phoneNumber = "5598988023736"; // Número atualizado
+  const phoneNumber = "5598989116486"; // Número atualizado
   const message = "Olá! Gostaria de saber mais sobre os serviços da Display Informática.";
   
   const whatsappUrl = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;

@@ -17,7 +17,7 @@ interface ProductCardProps {
 
 const ProductCard = ({ product }: ProductCardProps) => {
   const handleQuoteRequest = () => {
-    const phoneNumber = "5598988023736";
+    const phoneNumber = "5598989116486"; // Número atualizado
     const message = `Olá! Gostaria de solicitar um orçamento para o produto: ${product.name}. Poderia me enviar mais informações sobre preços e condições?`;
     const whatsappUrl = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
     
