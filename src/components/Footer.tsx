@@ -1,6 +1,6 @@
 
 import { Link } from "react-router-dom";
-import { Facebook, Instagram } from "lucide-react";
+import { Instagram } from "lucide-react";
 
 export const Footer = () => {
   return (
@@ -28,9 +28,6 @@ export const Footer = () => {
               Oferecemos produtos e serviços de qualidade com suporte técnico especializado.
             </p>
             <div className="flex space-x-4">
-              <a href="#" className="flex items-center justify-center w-10 h-10 rounded-full border border-blue-600 hover:border-blue-700 transition-colors bg-blue-600 hover:bg-blue-700">
-                <Facebook size={20} className="text-white" />
-              </a>
               <a href="https://www.instagram.com/epsonmaranhao?igsh=ZDN1cWdnMmR5dXBh" target="_blank" rel="noopener noreferrer" className="flex items-center justify-center w-10 h-10 rounded-full border border-pink-500 hover:border-pink-600 transition-colors bg-gradient-to-br from-purple-600 via-pink-500 to-orange-400 hover:from-purple-700 hover:via-pink-600 hover:to-orange-500">
                 <Instagram size={20} className="text-white" />
               </a>
