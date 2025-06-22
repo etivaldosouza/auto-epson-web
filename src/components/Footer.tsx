@@ -46,11 +46,11 @@ export const Footer = () => {
           </div>
 
           {/* Contact Info */}
-          <div>
+          <div className="min-w-0">
             <h3 className="text-lg font-semibold mb-4">Contato</h3>
             <div className="space-y-2 text-gray-300">
               <p>(98) 98802-3736</p>
-              <p>displayautomacao_adm@outlook.com</p>
+              <p className="break-all">displayautomacao_adm@outlook.com</p>
               <p>Rua R, Quadra 8, Nº 20<br />Planalto Anil 3 - São Luís - MA</p>
             </div>
           </div>
