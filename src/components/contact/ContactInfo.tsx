@@ -39,7 +39,7 @@ const ContactInfo = () => {
             <div>
               <h3 className="font-semibold text-slate-900 mb-2">Telefones</h3>
               <p className="text-gray-600">
-                (98) 99116-6486 (WhatsApp)<br />
+                (98) 989116486 (WhatsApp)<br />
                 (98) 3238-9292 (Fixo)<br />
                 (98) 3239-1068 (Fixo)<br />
                 (98) 3239-0954 (Fixo)
