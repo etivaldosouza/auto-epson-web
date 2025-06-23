@@ -2,6 +2,10 @@
 import { Button } from "@/components/ui/button";
 
 const CTASection = () => {
+  const phoneNumber = "5598989116486";
+  const message = "Olá! Gostaria de saber mais sobre os serviços da Display Informática.";
+  const whatsappUrl = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
+
   return (
     <div className="bg-slate-900 text-white rounded-2xl p-12">
       <div className="text-center mb-12">
@@ -70,9 +74,15 @@ const CTASection = () => {
           <div className="border-t border-slate-700 pt-6">
             <h4 className="text-lg font-semibold mb-4 text-center">Entre em contato conosco</h4>
             <div className="flex justify-center">
-              <Button className="bg-green-600 text-white hover:bg-green-700 shadow-lg">
-                💬 WhatsApp: (98) 98911-6486
-              </Button>
+              <a 
+                href={whatsappUrl}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <Button className="bg-green-600 text-white hover:bg-green-700 shadow-lg">
+                  💬 WhatsApp: (98) 98911-6486
+                </Button>
+              </a>
             </div>
           </div>
         </div>
